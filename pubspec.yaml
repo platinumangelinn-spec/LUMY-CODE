@@ -50,9 +50,6 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/
-    - assets/icons/
-    - assets/animations/
     - assets/fonts/
 
   fonts:
@@ -60,4 +57,5 @@ flutter:
       fonts:
         - asset: assets/fonts/Montserrat-Regular.ttf
         - asset: assets/fonts/Montserrat-Bold.ttf
+
           weight: 700
