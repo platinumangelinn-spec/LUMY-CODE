@@ -1,0 +1,63 @@
+name: lumy
+description: Red social con IA - LUMY
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.0
+  firebase_storage: ^12.3.0
+
+  # Manejo de estado
+  provider: ^6.1.2
+
+  # Animaciones y UI
+  animations: ^2.0.11
+  lottie: ^3.1.2
+  google_fonts: ^6.2.1
+
+  # HTTP y APIs
+  http: ^1.2.2
+  dio: ^5.7.0
+
+  # IA (variables de entorno)
+  flutter_dotenv: ^5.1.0
+
+  # Archivos y multimedia
+  image_picker: ^1.1.2
+  file_picker: ^8.0.0
+  video_player: ^2.9.1
+
+  # Otros
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/fonts/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
